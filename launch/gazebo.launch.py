@@ -22,7 +22,7 @@ def generate_launch_description():
     )
 
     
-    world_file_path = '/home/idekeloso/ws_rob_diff_entrega/src/robot_diferencial_pkg/worlds/pista.sdf'
+    world_file_path = os.path.join(pkg_share, 'worlds', 'pista.sdf')
 
     gazebo_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
@@ -30,6 +30,7 @@ def generate_launch_description():
         ),
         launch_arguments={'gz_args': f'-r {world_file_path}'}.items()
     )
+    
     # Nodo para aparecer (spawn) el robot en Gazebo
     spawn_robot = Node(
         package='ros_gz_sim',
