@@ -1,6 +1,6 @@
 # Entrega 1 - Simulación de Robot Diferencial en ROS 2
 
-**Institución:** Universidad EIA
+**Institución:** Universidad EIA\
 **Programa:** Ingeniería Mecatrónica
 
 ### Integrantes del Equipo
