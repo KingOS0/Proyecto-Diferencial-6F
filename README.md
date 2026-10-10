@@ -32,14 +32,14 @@ robot_diferencial_pkg/
 ├── config/
 │   └── visor.rviz                # Configuración predeterminada de visualización en RViz2
 ├── launch/
-│   └── gazebo.launch.py          # Lanzador maestro (Levanta Gazebo, spawnea el robot y abre R
+│   └── gazebo.launch.py          # Lanzador maestro (Levanta Gazebo, spawnea el robot y abre RViz
 ├── urdf/
 │   └── robot.urdf.xacro          # Definición geométrica y física del robot, chasis y sensores
 ├── worlds/
 │   └── pista.sdf                 # Mapa tridimensional del laberinto, muros y obstáculos
 ├── robot_diferencial_pkg/
 │   └── nodo_cinematica.py        # Nodo personalizado en Python para el control cinemático
-├── package.xml                   # Metadatos y dependencias del paquete para ROS 2
+├── package.xml                   # Dependencias del paquete para ROS 2
 ├── setup.py                      # Script de configuración e instalación del paquete en Python
 └── README.md                     # Documentación oficial del proyecto
 ```
